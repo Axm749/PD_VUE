@@ -267,7 +267,7 @@ export default {
                 console.log("Количество узлов :   ", this.usli," шт");
                 console.log("Количество узлов с резервированием:   ", this.usli+2," шт");
             }else if(!this.standart&&this.converg){
-                this.usli = Math.ceil(this.volume1/7/4)
+                this.usli = Math.ceil(this.volume3/7/4)
                 console.log("Количество узлов :   ", this.usli," шт");
                 console.log("Количество узлов с резервированием:   ", this.usli+2," шт");
             }else{
